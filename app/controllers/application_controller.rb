@@ -5,17 +5,4 @@ class ApplicationController < ActionController::Base
   include CurrentUserConcern
   include DefaultPageContent
 
-  before_action :set_copyright
-
-  def set_copyright
-  	@copyright = PenelopeViewTool::Renderer.copyright 'Penelope Nastou', 'All rights reserved'
-  end
-end
-
-module PenelopeViewTool
-  class Renderer
-  	def self.copyright name, msg
-  		"&copy; #{Time.now.year} | <b>#{name} </b> #{msg}".html_safe
-  	end
-  end
 end

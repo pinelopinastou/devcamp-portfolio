@@ -57,4 +57,4 @@ gem 'devise', '~> 4.6', '>= 4.6.2'
 
 gem 'bootstrap', '~> 4.0.0.alpha6'
 
-gem 'devcamp_view_tool', git: 'https://github.com/jordanhudgens/devcamp_view_tool.git'
+gem 'devcamp_view_tool', '~> 0.1.0'
