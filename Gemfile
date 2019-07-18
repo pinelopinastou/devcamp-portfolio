@@ -65,4 +65,4 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.2'
 
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
-gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
